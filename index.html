@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/05cacd1f06.js" crossorigin="anonymous"></script>
+    
+    <title>Toast Message</title>
+</head>
+<body>
+    <div id="toast"></div>          
+
+    <div>
+        <div onclick="showSuccessToast()" class="btn btn--success">Show success toast</div>
+        <div onclick="showInfoToast()" class="btn btn--info">Show info toast</div>
+        <div onclick="showWarningToast()" class="btn btn--warning">Show warning toast</div>
+        <div onclick="showErrorToast()" class="btn btn--error">Show error toast</div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
